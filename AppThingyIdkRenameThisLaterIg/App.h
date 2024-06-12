@@ -1,19 +1,13 @@
 #pragma once
 
-#include "Frame.h"
+#include <wx/wx.h> 
 
-#include <wx/xrc/xmlres.h>
-
-#ifdef WX_PRECOMP
-	#include <wx/wx.h>
-#endif
+#include "MainFrame.h"
 
 class App : public wxApp
 {
 public:
 	virtual bool OnInit();
-private:
-	void OnClick(wxCommandEvent& event);
 };
 
 wxIMPLEMENT_APP(App);
