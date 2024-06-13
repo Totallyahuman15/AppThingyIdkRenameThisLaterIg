@@ -1,8 +1,8 @@
 #pragma once
 
-#include <wx/wx.h> 
+#include <wx/wx.h>
 
-#include "MainFrame.h"
+#include "Hub.h"
 
 class App : public wxApp
 {

@@ -3,7 +3,9 @@
 bool App::OnInit()
 {
 	wxInitAllImageHandlers();
-	MainFrame* frame = new MainFrame("WebView Test", wxSize(800, 600));
-	frame->Show(true);
+
+	HubWindow* hub = new HubWindow("Gamer's Hub", wxSize(800, 600));
+	hub->Show();
+
 	return true;
 }
