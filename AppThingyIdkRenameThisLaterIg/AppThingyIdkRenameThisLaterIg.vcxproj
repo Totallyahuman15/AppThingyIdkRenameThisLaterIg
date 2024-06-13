@@ -20,13 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
-    <ClInclude Include="Chat.h" />
     <ClInclude Include="Hub.h" />
+    <ClInclude Include="WebViewWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="Chat.cpp" />
     <ClCompile Include="Hub.cpp" />
+    <ClCompile Include="WebViewWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\test.html" />
